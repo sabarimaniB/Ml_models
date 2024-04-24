@@ -20,19 +20,14 @@ from sklearn.metrics import accuracy_score
 
 PIMA Diabetes Dataset
 """
-
-# loading the diabetes dataset to a pandas DataFrame
 diabetes_dataset = pd.read_csv('/content/diabetes.csv')
 
 pd.read_csv?
 
-# printing the first 5 rows of the dataset
 diabetes_dataset.head()
 
-# number of rows and Columns in this dataset
 diabetes_dataset.shape
 
-# getting the statistical measures of the data
 diabetes_dataset.describe()
 
 diabetes_dataset['Outcome'].value_counts()
